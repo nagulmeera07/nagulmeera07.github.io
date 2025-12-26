@@ -69,7 +69,7 @@ copyright: © 2025 Nagulmeera Shaik. All rights reserved.
 nav:
       - Home: index.md
       - About me: About.md
-      - simulations: simulations.md
+      - Simulations: simulations.md
       - Research: Research.md
       - Contact: contact.md
 extra_css:
