@@ -8,6 +8,7 @@
 - ANSYS Fluent
 - OpenFOAM
 - PyFluent
+- Paraview
 
 ---
 
