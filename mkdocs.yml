@@ -1,0 +1,76 @@
+site_name: NM
+site_url: https://nagulmeera.org/mysite
+theme:
+   name: material
+   font:
+     text: EB Garamond
+
+   logo: Assests/logo.jpeg
+   favicon: Assests/logo.png
+   features:
+      - navigation.footer
+      - navigation.tabs
+   
+
+   palette:
+         # Palette toggle for light mode
+    - scheme: default
+
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: blue grey
+      accent: deep orange
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: grey
+      accent: deep orange
+
+
+
+markdown_extensions:
+  - tables
+  
+  - toc:
+      toc_depth: 0
+  - pymdownx.highlight:
+      anchor_linenums: false
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+extra:
+   generator: false
+   
+
+
+copyright: © 2025 Nagulmeera Shaik. All rights reserved.
+
+
+nav:
+      - Home: index.md
+      - About me: About.md
+      - simulations: simulations.md
+      - Research: Research.md
+      - Contact: contact.md
+extra_css:
+  - stylesheets/extra.css
