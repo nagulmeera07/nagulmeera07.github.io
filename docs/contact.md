@@ -4,9 +4,9 @@
 
 ---
 
-[Email](mailto:nagulmeera@gmail.com)<br>
+[Email](mailto:nagulmeeranms@gmail.com)<br>
 
-[Linkedin](linkedin.com/in/nm8)
+[Linkedin](https://www.linkedin.com/in/nm8/)
 
 ---
 
