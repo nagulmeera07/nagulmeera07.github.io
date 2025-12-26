@@ -10,7 +10,7 @@ This website documents my **research, simulations, experiments, and technical no
 
 - **Computational Fluid Dynamics (CFD)**
 - **Scientific Computing with Python**
-- **Machine Learnign in Computational Fluid Dynamics**
+- **Machine Learning in Computational Fluid Dynamics**
 - **Spray Atomization**
 - **Thermo-Fluids & Heat Transfer**
 - **Experimental Diagnostics & Image Processing**

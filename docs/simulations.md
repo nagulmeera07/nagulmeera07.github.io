@@ -16,6 +16,7 @@
 - Multiphase spray modeling
 - Discrete Phase Modeling (DPM)
 - Validation of experimental data
+- Cantera (problems involving chemical kinetics, thermodynamics, and transport processes.)
 
 ---
 

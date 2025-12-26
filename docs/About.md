@@ -14,10 +14,13 @@ This Project helped me to gain experience in conducting research.**
 | 2022 | Andhra University, Vizag | B.Tech in Mechanical Engineering |
 
 # Academic Interests
-- Fluid mechanics and spray dynamics
+- Fluid mechanics 
 - Multiphase and turbulent flows
 - Heat and mass transfer
 - Numerical modeling and CFD
+- Spray dynamics
+- Combustion
+- Aerodynamics
 
 # Technical Skills
 - ANSYS Fluent, OpenFoam
