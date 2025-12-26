@@ -80,3 +80,45 @@ html {
 .md-typeset table th {
   font-weight: 600;
 }
+
+
+/* ================================
+   MAIN CONTENT READABILITY FIX
+   ================================ */
+
+/* Increase body text */
+.md-typeset {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Headings hierarchy */
+.md-typeset h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.md-typeset h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Make content wider on desktop */
+@media (min-width: 1024px) {
+  .md-grid {
+    max-width: 1200px;
+  }
+}
+
+/* Mobile readability boost */
+@media (max-width: 768px) {
+  .md-typeset {
+    font-size: 1.1rem;
+    line-height: 1.85;
+  }
+}
