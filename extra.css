@@ -1,0 +1,82 @@
+/* ================================
+   GLOBAL TYPOGRAPHY (SAFE DEFAULT)
+   ================================ */
+
+html {
+  font-size: 16px; /* keep browser default for accessibility */
+}
+
+/* ================================
+   SIDEBAR (PRIMARY NAVIGATION)
+   ================================ */
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    font-size: 1.15rem;
+    font-weight: 500;
+  }
+}
+
+/* Mobile */
+@media (max-width: 1023px) {
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    font-size: 1rem;
+  }
+}
+
+/* ================================
+   TOP NAV TABS
+   ================================ */
+
+.md-tabs__link {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* Slightly larger tabs on desktop */
+@media (min-width: 1024px) {
+  .md-tabs__link {
+    font-size: 1.05rem;
+  }
+}
+
+/* ================================
+   TABLE STYLING (CLEAN & READABLE)
+   ================================ */
+
+/* Remove all borders */
+.md-typeset table,
+.md-typeset table th,
+.md-typeset table td {
+  border: none !important;
+}
+
+/* Improve spacing */
+.md-typeset table {
+  border-collapse: separate !important;
+  border-spacing: 0 0.4rem !important;
+}
+
+/* Table text size (responsive) */
+.md-typeset table th,
+.md-typeset table td {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Slightly smaller tables on mobile */
+@media (max-width: 768px) {
+  .md-typeset table th,
+  .md-typeset table td {
+    font-size: 0.85rem;
+  }
+}
+
+/* ================================
+   OPTIONAL: TABLE HEADER EMPHASIS
+   ================================ */
+
+.md-typeset table th {
+  font-weight: 600;
+}
